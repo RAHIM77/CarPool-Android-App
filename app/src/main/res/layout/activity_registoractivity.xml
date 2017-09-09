@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.rahim.carpoolapp1.Registoractivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="166dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/carpool"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="36dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:hint="FullName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gender"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity=""
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Male"
+            android:textSize="15dp"
+            android:paddingRight="20dp"
+            android:id="@+id/rd1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:text="Female"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:paddingLeft="5dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter email ID"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:checked="true"
+        android:text="I have a Car"
+        android:id="@+id/carchk"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/registorbtn"
+        android:layout_height="wrap_content"
+        android:text="Registor"/>
+</LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#fff"
+    tools:context="com.example.rahim.carpoolapp1.LoginActivity"
+    android:weightSum="1">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="166dp"
+        android:layout_height="96dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/carpool"
+        android:layout_weight="0.08" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.08"
+        android:hint="Username"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:paddingBottom="20dp"
+        android:textSize="20dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="340dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="25dp"
+            android:text="Log in"
+            android:id="@+id/loginbtn"
+            android:layout_weight="0.83" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Click here to SignUp."
+        android:textStyle="bold"
+        android:id="@+id/signup"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Click here to reset password."
+        android:textStyle="bold"
+        android:id="@+id/resetpass"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+</LinearLayout>
