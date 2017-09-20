@@ -11,6 +11,7 @@
     android:padding="20dp"
     android:layout_height="match_parent"
     tools:context="com.example.rahim.carpoolapp1.Registoractivity">
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_gravity="center"
@@ -19,6 +20,26 @@
         app:srcCompat="@drawable/carpool"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="36dp" />
+    <TableRow
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="64dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:gravity="center|left"
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#2c3e50"
+            android:textSize="18sp"
+            android:text="Signing Up please wait..." />
+    </TableRow>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></LinearLayout>
@@ -101,6 +122,8 @@
         android:id="@+id/registorbtn"
         android:layout_height="wrap_content"
         android:text="Registor"/>
+
+
 </LinearLayout>
 </ScrollView>
 
