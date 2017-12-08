@@ -1,15 +1,83 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.rahim.carpoolapp1.SearchRide">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.example.rahim.carpoolapp1.SearchRide">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="166dp"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/carpool"
+        android:paddingTop="33dp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="36dp" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Enter Source"
+       android:textSize="20dp"
+
+       android:layout_marginTop="70dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Search Ride Page"
-        android:textSize="30dp"
-        android:gravity="center"/>
+        android:layout_height="wrap_content"
+        android:text="Enter Destination"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/setdate"
 
-</FrameLayout>
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_date"
+        android:text="Select Date"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/settime"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_time"
+            android:onClick="onButtonClickedtime"
+            android:layout_height="wrap_content"
+            android:text="Select Time"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"/>
+
+
+</LinearLayout>

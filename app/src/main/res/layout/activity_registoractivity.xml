@@ -25,20 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="64dp" >
 
-        <ProgressBar
-            android:id="@+id/progressBar2"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent" />
 
-        <TextView
-            android:gravity="center|left"
-            android:id="@+id/textView9"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textColor="#2c3e50"
-            android:textSize="18sp"
-            android:text="Signing Up please wait..." />
     </TableRow>
     <LinearLayout
         android:layout_width="match_parent"
@@ -76,19 +63,34 @@
     </RadioGroup>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"></LinearLayout>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="10dp"
             android:text="Age"
             android:paddingLeft="5dp"
             android:textSize="20dp"
             />
         <EditText
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+
             />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <EditText
+         android:layout_width="match_parent"
+         android:id="@+id/db"
+         android:width="200dp"
+         android:hint="Select DOB "
+          android:layout_height="wrap_content"
+          />
+
     </LinearLayout>
+
 
     <EditText
         android:layout_width="match_parent"
