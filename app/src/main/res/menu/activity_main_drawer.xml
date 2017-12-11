@@ -18,6 +18,9 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="offeride " />
+        <item
+            android:icon="@drawable/ic_menu_manage"
+            android:title="logout " />
     </group>
 
 

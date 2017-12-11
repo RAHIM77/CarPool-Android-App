@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/web_hi_res_512"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registoractivity">
+        <activity android:name=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.rahim.carpoolapp1.Registoractivity" />
+                android:value="com.example.rahim.carpoolapp1.LoginActivity" />
         </activity>
         <activity
             android:name=".MainActivity"
@@ -27,6 +27,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CarDetail" />
         <activity android:name=".ResetPassword"></activity>
+        <activity android:name=".Registoractivity"></activity>
     </application>
 
 </manifest>
