@@ -33,6 +33,7 @@
         android:id="@+id/etPasswordLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="password"
         app:passwordToggleEnabled="true"
         >
 
@@ -40,7 +41,7 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter Password"
+            android:textColorHint="#000000"
             app:passwordToggleDrawable="@drawable/icon_selector"
             android:inputType="textPassword"/>
     </android.support.design.widget.TextInputLayout>

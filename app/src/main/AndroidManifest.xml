@@ -26,8 +26,9 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".CarDetail" />
-        <activity android:name=".ResetPassword"></activity>
-        <activity android:name=".Registoractivity"></activity>
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".Registoractivity" />
+        <activity android:name=".GuideActivity"></activity>
     </application>
 
 </manifest>
