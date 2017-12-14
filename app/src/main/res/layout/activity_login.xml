@@ -19,7 +19,7 @@
         android:layout_marginTop="20dp"
         android:layout_weight="0.08"
         android:paddingBottom="20dp"
-        app:srcCompat="@drawable/carpool"/>
+        app:srcCompat="@drawable/clogo"/>
 
     <EditText
         android:id="@+id/textView"

@@ -11,7 +11,7 @@
         android:layout_gravity="center"
         android:layout_width="166dp"
         android:layout_height="101dp"
-        app:srcCompat="@drawable/carpool" />
+        app:srcCompat="@drawable/clogo" />
     <TextView
         android:layout_width="250dp"
         android:text="Car Detail"
@@ -44,7 +44,7 @@
         />
     <Button
         android:layout_width="match_parent"
-        android:background="#ecf0f1"
+        android:background="#616161"
         android:id="@+id/carsave"
         android:layout_height="wrap_content"
         android:text="Save"/>
