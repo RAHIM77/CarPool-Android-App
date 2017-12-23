@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/web_hi_res_512"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeScreen">
+        <activity android:name=".WelcomeScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +29,8 @@
         <activity android:name=".CarDetail" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".Registoractivity" />
-        <activity android:name=".GuideActivity"></activity>
+        <activity android:name=".GuideActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
